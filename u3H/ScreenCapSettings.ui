@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>333</width>
+    <height>156</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>ScreenCap Settings</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="u3h.qrc">
+    <normaloff>:/u3H/u3hrsc/Acidrums4-Betelgeuse-Apps-rekonq.ico</normaloff>:/u3H/u3hrsc/Acidrums4-Betelgeuse-Apps-rekonq.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Refresh</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0" colspan="2">
+        <widget class="QCheckBox" name="checkBox_enableRefresh">
+         <property name="text">
+          <string>Enable</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Interval</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="comboBox_refresh">
+         <item>
+          <property name="text">
+           <string>30 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>15 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>10 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.5 sec</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Loop</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton_applyOptions">
+      <property name="text">
+       <string>Apply</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_cancel">
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>Quality</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Colors</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="2">
+        <widget class="QComboBox" name="comboBox_bits">
+         <item>
+          <property name="text">
+           <string>32 bits</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>24 bits</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>16 bits</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8 bits</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QLabel" name="label_3">
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="text">
+          <string>Source Scaling</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="comboBox_scaling">
+         <item>
+          <property name="text">
+           <string>100 %</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>75 %</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>50 %</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>25 %</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="u3h.qrc"/>
+ </resources>
+ <connections/>
+</ui>

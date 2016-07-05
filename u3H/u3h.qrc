@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/u3H">
+        <file>u3hrsc/users.png</file>
+        <file>u3hrsc/setting_tools.png</file>
+        <file>u3hrsc/menu.png</file>
+        <file>u3hrsc/listeners.png</file>
+        <file>u3hrsc/dashboard.png</file>
+        <file>u3hrsc/download.png</file>
+        <file>u3hrsc/page_white_text.png</file>
+        <file>u3hrsc/connect.png</file>
+        <file>u3hrsc/disconnect.png</file>
+        <file>u3hrsc/plugin.png</file>
+        <file>u3hrsc/settings.png</file>
+        <file>u3hrsc/bullet_blue.png</file>
+        <file>u3hrsc/Acidrums4-Betelgeuse-Apps-rekonq.ico</file>
+    </qresource>
+</RCC>

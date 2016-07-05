@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{c5a365d4-78c1-4255-a52e-783aebee80d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{52834215-4072-4f4b-8e11-1ba3b90403c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Functions">
+      <UniqueIdentifier>{303c3584-8be9-433e-8ccc-64f99f519f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network">
+      <UniqueIdentifier>{310a61ba-c942-4342-ad0d-cf29594f4f0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="socketClient.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="u3HSrv.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="packetProcessor.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="packetBuilder.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="WMIPoller.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="functionBase.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureScreen.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="FilesManager.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="clientinformations.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteShell.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="FileVersionInfo.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientMgmt.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="sockertTransfertClient.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryManager.cpp">
+      <Filter>Source\Functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="socketClient.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonTemplate.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="u3HSrv.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="packetProcessor.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="packetBuilder.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="WMIPoller.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="functionBase.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureScreen.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="FilesManager.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="clientinformations.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteShell.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="computerInformations.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileVersionInfo.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Conf.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="packetDefinition.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="string_utils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMgmt.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="socketTransfetClient.h">
+      <Filter>Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryManager.h">
+      <Filter>Source\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="misc_utils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

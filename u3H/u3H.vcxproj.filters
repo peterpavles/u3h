@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{7a7ac08c-f8a7-4e54-af6e-4dd10de20c65}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e1b0be62-ff74-4e00-9857-bceb7e1d7b25}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source\Networking">
+      <UniqueIdentifier>{04330f87-0071-432c-9604-61b917f15d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CryptoEngine">
+      <UniqueIdentifier>{ef99ea97-b186-4c14-9cc1-b7ebe4664c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{7ef4649a-3555-4e63-aa58-5e4701c23793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{b57144c6-01db-43b9-b708-a26a4df294d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Funcs">
+      <UniqueIdentifier>{d643f65d-87e5-4bd8-aeb6-fc59285d953a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CustomObjects">
+      <UniqueIdentifier>{5192c926-adae-4668-84eb-c7380c91e437}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_u3h.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_u3h.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_u3h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connexionsListener.cpp">
+      <Filter>Source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_connexionsListener.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_connexionsListener.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="u3HClient.cpp">
+      <Filter>Source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_u3HClient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_u3HClient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoEngine.cpp">
+      <Filter>Source\CryptoEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="u3h.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="configHandler.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="u3hClientForm.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_u3hClientForm.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_u3hClientForm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_u3hClientForm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteShell.cpp">
+      <Filter>Source\Funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Source\Funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionBase.cpp">
+      <Filter>Source\Funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FunctionBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FunctionBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProcessManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProcessManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientInformations.cpp">
+      <Filter>Source\Funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ClientInformations.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ClientInformations.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FilesManager.cpp">
+      <Filter>Source\Funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FilesManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FilesManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transfertListener.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="transfertListener.cpp">
+      <Filter>Source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transfertListener.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureScreen.cpp">
+      <Filter>Source\Funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CaptureScreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CaptureScreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="uQlabel.cpp">
+      <Filter>Source\CustomObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uQlabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_uQlabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="packetBuilder.cpp">
+      <Filter>Source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenCapSettings.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScreenCapSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScreenCapSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="u3HTransfertClient.cpp">
+      <Filter>Source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_u3HTransfertClient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_u3HTransfertClient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="u3h.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3h.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3HClient.h">
+      <Filter>Source\Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="connexionsListener.h">
+      <Filter>Source\Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CryptoEngine.h">
+      <Filter>Source\CryptoEngine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3h.h">
+      <Filter>Source\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3hClientForm.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3hClientForm.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3hClientForm.h">
+      <Filter>Source\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FunctionBase.h">
+      <Filter>Source\Funcs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProcessManager.h">
+      <Filter>Source\Funcs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ClientInformations.h">
+      <Filter>Source\Funcs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FilesManager.h">
+      <Filter>Source\Funcs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transfertListener.h">
+      <Filter>Source\Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CaptureScreen.h">
+      <Filter>Source\Funcs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uQlabel.h">
+      <Filter>Source\CustomObjects</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScreenCapSettings.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ScreenCapSettings.h">
+      <Filter>Source\Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="u3HTransfertClient.h">
+      <Filter>Source\Networking</Filter>
+    </CustomBuild>
+    <CustomBuild Include="packetBuilder.h">
+      <Filter>Source\Networking</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_u3h.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonTemplate.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="configHandler.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_u3hClientForm.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteShell.h">
+      <Filter>Source\Funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="qt_Commons.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="win_Commons.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="uQTreeWidgetItem.h">
+      <Filter>Source\CustomObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="packetsDefinition.h">
+      <Filter>Source\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ScreenCapSettings.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

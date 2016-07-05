@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/u3hClientForm">
+        <file>u3hClientFormrsc/process.png</file>
+        <file>u3hClientFormrsc/information.png</file>
+        <file>u3hClientFormrsc/agp.png</file>
+        <file>u3hClientFormrsc/motherboard.png</file>
+        <file>u3hClientFormrsc/computer.png</file>
+        <file>u3hClientFormrsc/registry_editor.png</file>
+        <file>u3hClientFormrsc/opened_folder-48.png</file>
+        <file>u3hClientFormrsc/folder.png</file>
+        <file>u3hClientFormrsc/files.png</file>
+        <file>u3hClientFormrsc/kprocess.png</file>
+        <file>u3hClientFormrsc/drive_network.png</file>
+        <file>u3hClientFormrsc/drive_disk.png</file>
+        <file>u3hClientFormrsc/drive_cd.png</file>
+        <file>u3hClientFormrsc/drive.png</file>
+        <file>u3hClientFormrsc/search_accounts.png</file>
+        <file>u3hClientFormrsc/webcam.png</file>
+        <file>u3hClientFormrsc/screen_error.png</file>
+        <file>u3hClientFormrsc/keyboard.png</file>
+        <file>u3hClientFormrsc/application_osx_terminal.png</file>
+        <file>u3hClientFormrsc/plugin.png</file>
+        <file>u3hClientFormrsc/script.png</file>
+        <file>u3hClientFormrsc/powershell.png</file>
+        <file>u3hClientFormrsc/file-batch.png</file>
+        <file>u3hClientFormrsc/vbs.png</file>
+        <file>u3hClientFormrsc/mmc.png</file>
+        <file>u3hClientFormrsc/system.png</file>
+    </qresource>
+</RCC>
